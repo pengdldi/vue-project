@@ -1,11 +1,27 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+// import HomeView from '../views/HomeView.vue'
+import DataBinding from '../views/DataBinding.vue'
+import DataBindingHtml from '../views/DataBindingHtml.vue'
+import DataBindingInputText from '../views/DataBindingInputText.vue'
+import DataBindingInputNumber from '../views/DataBindingInputNumber.vue'
+import DataBindingTextarea from '../views/DataBindingTextarea.vue'
+import DataBindingSelect from '../views/DataBindingSelect.vue'
+import DataBindingCheckbox from '../views/DataBindingCheckbox.vue'
+import DataBindingCheckbox2 from '../views/DataBindingCheckbox2.vue'
+import DataBindingRadio from '../views/DataBindingRadio.vue'
+import DataBindingAttribue from '../views/DataBindingAttribue.vue'
+import DataBindingButton from '../views/DataBindingButton.vue'
+import DataBindingClass from '../views/DataBindingClass.vue'
+import DataBindingClass2 from '../views/DataBindingClass2.vue'
+import DataBindingStyle from '../views/DataBindingStyle.vue'
+import DataBindingStyle2 from '../views/DataBindingStyle2.vue'
 
 const routes = [
   {
     path: '/',
     name: 'home',
-    component: HomeView
+    // component: HomeView
+    component: DataBindingAttribue
   },
   {
     path: '/about',
@@ -14,6 +30,76 @@ const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+  } ,
+  {
+    path: '/databinding',
+    name: 'DataBinding',
+    component: DataBinding
+  },
+  {
+    path: '/databindinghtml',
+    name: 'DataBindingHtml',
+    component: DataBindingHtml
+  },
+  {
+    path: '/databindinginputtext',
+    name: 'DataBindingInputText',
+    component: DataBindingInputText
+  },
+  {
+    path: '/databindinginputnumber',
+    name: 'DataBindingInputNumber',
+    component: DataBindingInputNumber
+  },
+  {
+    path: '/databindingtextarea',
+    name: 'DataBindingTextarea',
+    component: DataBindingTextarea
+  },
+  {
+    path: '/databindingselect',
+    name: 'DataBindingSelect',
+    component: DataBindingSelect
+  },
+  {
+    path: '/databindingcheckbox',
+    name: 'DataBindingCheckbox',
+    component: DataBindingCheckbox
+  },
+  {
+    path: '/databindingcheckbox2',
+    name: 'DataBindingCheckbox2',
+    component: DataBindingCheckbox2
+  },
+  {
+    path: '/databindingradio',
+    name: 'DataBindingRadio',
+    component: DataBindingRadio
+  },
+  {
+    path: '/databindingbutton',
+    name: 'DataBindingButton',
+    component: DataBindingButton
+  },
+  {
+    path: '/databindingclass',
+    name: 'DataBindingClass',
+    component: DataBindingClass
+  },
+  {
+    path: '/databindingclass2',
+    name: 'DataBindingClass2',
+    component: DataBindingClass2
+  },
+  {
+    path: '/databindingstyle',
+    name: 'DataBindingStyle',
+    component: DataBindingStyle
+  },
+  {
+    path: '/databindingstyle2',
+    name: 'DataBindingStyle2',
+    component: DataBindingStyle2
   }
 ]
 

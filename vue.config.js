@@ -3,6 +3,6 @@ module.exports = defineConfig({
   transpileDependencies: true
 })
 
-module.exports = { chinWeppack: config => {
+module.exports = { chainWebpack: config => {
   config.plugins.delete('prefetch'); //prefetch삭제
 }}

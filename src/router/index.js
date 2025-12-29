@@ -22,6 +22,9 @@ import EventChange from '../views/EventChange.vue'
 import ComputedView from '../views/ComputedView.vue'
 import WatchView2 from '../views/WatchView2.vue'
 import DataBindingList2 from '../views/DataBindingList2.vue'
+import NestedComponent from '../views/NestedComponent.vue'
+import ParentComponent from '../views/ParentComponent5.vue'
+import ProvideInject from '../views/ProvideInject.vue'
 
 const routes = [
   {
@@ -142,6 +145,21 @@ const routes = [
     path: '/databindinglist2',
     name: 'DataBindingList2',
     component: DataBindingList2
+  },
+  {
+    path: '/nested',
+    name: 'Nested',
+    component: NestedComponent
+  },
+  {
+    path: '/parent',
+    name: 'Parent',
+    component: ParentComponent
+  },
+  {
+    path: '/provideinject',
+    name: 'ProvideInject',
+    component: ProvideInject
   }
 ]
 

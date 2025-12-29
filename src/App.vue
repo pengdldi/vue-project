@@ -3,7 +3,7 @@
     <router-link to="/">Home</router-link> |
     <!-- <router-link to="/databindinghtml">DataBinding</router-link> -->
     <!-- <router-link to="/databindinginputtext">DataBinding</router-link> -->
-    <router-link to="/provideinject">DataBinding</router-link>
+    <router-link to="/plugins">CustomDirective</router-link>
   </nav>
   <router-view/>
 </template>

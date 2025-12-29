@@ -25,6 +25,10 @@ import DataBindingList2 from '../views/DataBindingList2.vue'
 import NestedComponent from '../views/NestedComponent.vue'
 import ParentComponent from '../views/ParentComponent5.vue'
 import ProvideInject from '../views/ProvideInject.vue'
+import Calculator from '../views/CompositionAPIProvide.vue'
+import Mixins from '../views/MixinsAPI.vue'
+import CustomDirective from '../views/CustomDirective.vue'
+import Plugins from '../views/PluginsView.vue'
 
 const routes = [
   {
@@ -160,6 +164,26 @@ const routes = [
     path: '/provideinject',
     name: 'ProvideInject',
     component: ProvideInject
+  },
+  {
+    path: '/calculator',
+    name: 'Calculator',
+    component: Calculator
+  },
+  {
+    path: '/mixins',
+    name: 'Mixins',
+    component: Mixins
+  },
+  {
+    path: '/customdirective',
+    name: 'CustomDirective',
+    component: CustomDirective
+  },
+  {
+    path: '/plugins',
+    name: 'Plugins',
+    component: Plugins
   }
 ]
 

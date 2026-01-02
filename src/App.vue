@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
+    <router-link to="/googlelogin">Home</router-link> |
     <!-- <router-link to="/databindinghtml">DataBinding</router-link> -->
     <!-- <router-link to="/databindinginputtext">DataBinding</router-link> -->
     <router-link to="/plugins">CustomDirective</router-link>

@@ -25,3 +25,5 @@ app.use(router);
 app.mixin(mixins);
 app.mount('#app');
 
+
+window.Kakao.init("6deb711c27ac2ce163a6efde44876d0d"); //발급받은 javascript key 입력

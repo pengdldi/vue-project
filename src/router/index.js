@@ -29,6 +29,9 @@ import Calculator from '../views/CompositionAPIProvide.vue'
 import Mixins from '../views/MixinsAPI.vue'
 import CustomDirective from '../views/CustomDirective.vue'
 import Plugins from '../views/PluginsView.vue'
+import KakaoLogin from '../views/KakaoLogin.vue'
+import NaverLogin from '../views/NaverLogin.vue'
+import GoogleLogin from '../views/GoogleLogin.vue'
 
 const routes = [
   {
@@ -184,6 +187,21 @@ const routes = [
     path: '/plugins',
     name: 'Plugins',
     component: Plugins
+  },
+  {
+    path: '/kakaologin',
+    name: 'KakaoLogin',
+    component: KakaoLogin
+  },
+  {
+    path: '/naverlogin',
+    name: 'NaverLogin',
+    component: NaverLogin
+  },
+  {
+    path: '/googlelogin',
+    name: 'GoogleLogin',
+    component: GoogleLogin
   }
 ]
 
